@@ -45,7 +45,6 @@
             <kbd>L</kbd>
             <span class = "sound">Tink</span>
         </div>
-        
     </div>
 
 <!-- Mapping the sounds with data-key attribute anchorage -->
@@ -59,7 +58,6 @@
     <audio data-key = "75" src = "sounds/tom.wav"></audio>
     <audio data-key = "76" src = "sounds/tink.wav"></audio>
 
-
 <script>
     // Adding custom event with two parameters: the event and the function getting the event.
     window.addEventListener('keydown', function(e){
@@ -71,8 +69,6 @@
         audio.play();
         key.classList.add('playing');
     });
-
-
 
     function removeTransition (e){
         
